@@ -21,7 +21,9 @@ module Telegram
         sendGame setGameScore getGameHighScores setPassportDataErrors
         editMessageMedia sendAnimation sendPoll stopPoll setChatPermissions
         setChatAdministratorCustomTitle sendDice getMyCommands setMyCommands
-        deleteMyCommands setStickerSetThumb logOut close copyMessage
+        deleteMyCommands setMyName getMyName setMyDescription getMyDescription
+        setMyShortDescription getMyShortDescription setStickerSetThumb
+        logOut close copyMessage
         createChatInviteLink editChatInviteLink revokeChatInviteLink
         approveChatJoinRequest declineChatJoinRequest banChatSenderChat
         unbanChatSenderChat answerWebAppQuery setChatMenuButton
